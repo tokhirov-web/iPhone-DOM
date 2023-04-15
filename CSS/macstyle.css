@@ -1,0 +1,215 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.containerMac {
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 1320px;
+    padding: 30px 0;
+}
+
+.containerMac h1 {
+    text-align: center;
+}
+
+.containerMac p {
+    margin-top: 25px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.mainContent {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.content-right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.content-right h1 {
+    font-size: 38px;
+}
+
+.content-right span {
+    font-size: 32px;
+    color: #0071E3;
+}
+
+.price span {
+    color: black;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.buttonContainer {
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.colorBtnWhite {
+    border-radius: 8px;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    color: #797979;
+    cursor: pointer;
+    background-color: #CFE7FF;
+    border: none;
+}
+
+.colorBtnSpaceGray {
+    border-radius: 8px;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    color: #797979;
+    cursor: pointer;
+    background-color: #CFE7FF;
+    border: none;
+}
+
+.colorActive {
+    background-color: #0071E3;
+    color: #FFFFFF;
+}
+
+.colorNotActive {
+    border-radius: 8px;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    color: #797979;
+    cursor: pointer;
+    background-color: #CFE7FF;
+    border: none;
+}
+
+.memoryBtns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.common {
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    padding-bottom: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.common p {
+    font-size: 18px;
+}
+
+.commonActive {
+    border: 2px solid #007FFF;
+
+}
+
+.commonNotActive {
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    padding-bottom: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.burgerMenu {
+    padding: 10px 16px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 65px;
+    position: fixed;
+    right: 1%;
+    top: 2%;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.burgerMenu span {
+    width: 45px;
+    height: 5px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.closingMenu {
+    padding: 5px 25px;
+    right: 0;
+    top: 0;
+    position: absolute;
+    cursor: pointer;
+}
+
+.sideBar {
+    /* display: none; */
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    position: fixed;
+    right: -100%;
+    top: 0;
+    /* transform: translateX(200%); */
+    background-color: black;
+    width: 600px;
+    height: 200vh;
+    flex-direction: column;
+    z-index: 100;
+    padding: 80px 0;
+    transition: 200ms ease;
+}
+
+.linkBox ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+li {
+    color: white;
+    font-size: 40px;
+}
+
+li a {
+    color: white;
+}
+
+.sideBar h1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
